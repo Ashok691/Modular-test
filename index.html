@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container2">
+      <div class="front-page">
+        <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/nkhv5z20o1k03wzeydzj" class="accio-symbol" alt="">
+        <img src="https://admin.speedexam.net/logo/687fa576-d265-4c9d-ac32-13016b0b684e.png" class="accio-image" alt="">
+        <h1 class="home">Home</h1>
+      </div>
+      <h1 class="quote">Build your tech career <br>
+        Get a Guaranteed Job upto 40 lacs</h1>
+        <div style="text-align: center; margin-top: 150px;">
+          <p class="click">Click below to</p>
+          <a href="#registration-id" class="register-module"> Register for modular structure</a>
+        </div>
+    </div>
+    <div class="container" id="registration-id">
+        <h1 class="display-4 heading">Registration Form</h1>
+        <form class="row g-3 registration-form">
+            <div class="col-md-6">
+              <label for="first-name" class="form-label">First name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="First name" autocomplete="off">
+              <div class="valid-feedback" id="first-name-valid">
+                Looks good!
+              </div>
+              <div class="invalid-feedback" id="first-name-invalid">
+                Please enter a valid first name
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="last-name" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="last-name" placeholder="Last name" autocomplete="off">
+              <div class="valid-feedback" id = "last-name-valid">
+                Looks good!
+              </div>
+              <div class="invalid-feedback" id="last-name-invalid">
+                Please enter a valid last name
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="email-id" class="form-label">Email Id</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="email-id" aria-describedby="inputGroupPrepend" placeholder="Email Id" autocomplete="off">
+                <div class="valid-feedback" id = "email-id-valid">
+                    Looks good!
+                  </div>
+                <div class="invalid-feedback" id = "email-id-invalid">
+                  Please choose a valid Email Id.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="phone-number" class="form-label">Phone number</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">+91</span>
+                <input type="tel" class="form-control" id="phone-number" aria-describedby="inputGroupPrepend" placeholder="Phone number" autocomplete="off">
+                <div class="valid-feedback" id = "phone-number-valid">
+                    Looks good!
+                  </div>
+                <div class="invalid-feedback" id = "phone-number-invalid">
+                  Please choose a valid Phone number.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="batch-input" class="form-label">Batch No</label>
+                <select id="batch-input" class="form-select">
+                    <option value="None" selected>Choose...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    </select>
+              </select>
+              <div class="valid-feedback" id = "batch-valid">
+                Looks good!
+              </div>
+              <div class="invalid-feedback" id = "batch-invalid">
+                Please select a valid Batch no.
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="current-module" class="form-label">Current module</label>
+                <select id="current-module" class="form-select">
+                  <option value="None" selected>Choose...</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  </select>
+                </select>
+              <div class="valid-feedback" id = "current-module-valid">
+                Looks good!
+              </div>
+              <div class="invalid-feedback" id = "current-module-invalid">
+                Please select a valid Module number.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="tnC-input">
+                <label class="form-check-label" for="tnC-input">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback" id = "tnC-invalid">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12 sub-button">
+              <button class="btn btn-primary" type="button" onclick="validate()">Submit form</button>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

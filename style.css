@@ -1,0 +1,58 @@
+.heading{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.registration-form{
+    width:700px;
+    margin:auto;
+}
+.sub-button{
+    text-align: center;
+}
+.container2{
+    background-color: #2868A4;
+    height: 100vh;
+    width: 100;
+}
+.front-page{
+    display: flex;
+    justify-content: space-between;
+}
+.accio-image{
+    width: 350px;
+    height: 80px;
+    /* display: block; */
+    /* float:calc(50%); */
+    /* text-align: center; */
+    /* margin-left:auto;
+    margin-right: auto; */
+    
+}
+.accio-symbol{
+    width: 80px;
+    height: 75px;
+}
+.home{
+     color: white;
+     margin-right:10px;
+}
+.quote{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 25px;
+}
+.register-module{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.click{
+    color:whitesmoke;
+    font-size: 35px;
+}
+a:hover{
+  color: aqua;  
+}
